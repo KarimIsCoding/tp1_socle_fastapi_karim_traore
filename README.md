@@ -17,3 +17,8 @@ Cas 2 : **GET /users/toto**
 
 2) La requête est-elle exécutée ? Quel est le code HTTP retournée ? Le paramètre concerné. Le type attendu.
 -  Non, elle n'est pas exécutée, le code http retournée est 422 "Unprocessable Entity", le paramètre concerné est l'user_id avec pour type attendu "int_parsing", un entier.
+
+Partie 5:
+
+1) Pourquoi le champ id n'est-il pas présent dans le modèle UserCreate ?
+2) A quel moment et par qui l'identifiant d'un utilisateur doit-il être attribué ?
