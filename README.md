@@ -14,5 +14,5 @@ Cas 1 : **GET /users/1**
 -  Oui, elle est exécutée avec la valeur : **id: 1**
 
 Cas 2 : **GET /users/toto**
- 2) La requête est-elle exécutée ? Quel est le code HTTP retournée ? Le paramètre concerné. Le type attendu.
+2) La requête est-elle exécutée ? Quel est le code HTTP retournée ? Le paramètre concerné. Le type attendu.
 -  Non, elle n'est pas exécutée, le code http retournée est 422 "Unprocessable Entity", le paramètre concerné est l'user_id avec pour type attendu "int_parsing", un entier.
