@@ -1,0 +1,1 @@
+# tp1_socle_fastapi_karim_traore
